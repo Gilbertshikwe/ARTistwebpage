@@ -1,0 +1,28 @@
+{
+  "artpieces": [
+    {
+      "id": 1,
+      "title": "Mona Lisa",
+      "img": "https://media.timeout.com/images/103166731/750/562/image.webp",
+      "description": "This is designed by Leonardo da Vinci.1503"
+    },
+    {
+      "id": 2,
+      "title": "Girl with the pearl earring",
+      "img": "https://media.timeout.com/images/103166735/750/562/image.webp",
+      "description": "This is designed by Johannes Vermeer.1665"
+    },
+    {
+      "id": 3,
+      "title": "The Starry Night ",
+      "img": "https://media.timeout.com/images/103166739/750/562/image.webp",
+      "description": "This is designed by Vincent Van Gogh.1889"
+    },
+    {
+      "id": 4,
+      "title": "The Kiss",
+      "img": "https://media.timeout.com/images/103166743/750/562/image.webp",
+      "description": "This is designed by Gustav Klimt.1905"
+    }
+  ]
+}
