@@ -9,8 +9,14 @@ card.innerHTML = `
 </div>
 
 `
+let editbutton = document.createElement("button")
+editbutton.className = "button-warning"
+editbutton.textContent = "Edit Post"
 console.log(card)
+console.log(editbutton)
 document.querySelector("#artlist").appendChild(card)
+card.appendChild(editbutton)
+
 }
 function getAllArt(){
 fetch('http://localhost:3000/artpieces')
