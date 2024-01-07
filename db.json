@@ -23,6 +23,18 @@
       "title": "The Kiss",
       "img": "https://media.timeout.com/images/103166743/750/562/image.webp",
       "description": "This was designed by Gustav Klimt.1905"
+    },
+    {
+      "title": "The Birth of Venus",
+      "img": "https://media.timeout.com/images/103166737/750/562/image.webp",
+      "description": "Botticelli’s The Birth of Venus was the first full-length, non-religious nude since antiquity, and was made for Lorenzo de Medici. It’s claimed that the figure of the Goddess of Love is modeled after one Simonetta Cattaneo Vespucci, whose favors were allegedly shared by Lorenzo and his younger brother, Giuliano",
+      "id": 5
+    },
+    {
+      "title": "Arrangement in Grey and Black No. 1",
+      "img": "https://media.timeout.com/images/103166741/750/562/image.webp",
+      "description": "Whistler’s Mother, or Arrangement in Grey and Black No. 1, as it’s actually titled, speaks to the artist’s ambition to pursue art for art’s sake. James Abbott McNeill Whistler painted the work in his London studio in 1871, and in it, the formality of portraiture becomes an essay in form.",
+      "id": 6
     }
   ]
 }

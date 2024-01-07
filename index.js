@@ -6,8 +6,9 @@ function handleSubmit(e){
     e.preventDefault();
     let artObj = {
         title: e.target.title.value,
+        img: e.target.displayimg.value,
         description: e.target.description.value,
-        img: e.target.img.value
+       
     }
 renderoneArt(artObj)
 postArt(artObj)
@@ -51,11 +52,12 @@ function postArt(artObj){
     fetch('http://localhost:3000/artpieces',{
         method:"POST",
         headers: {
-            "content-Type":"application/json"
+            "Content-Type":"application/json"
         },
         body:JSON.stringify(artObj)
     })
     .then(response => response.json())
+    .then(art => console.log(art))
 }
 
 function initialize (){
