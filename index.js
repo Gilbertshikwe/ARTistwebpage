@@ -1,3 +1,20 @@
+//add  event listeners
+document.querySelector("#art-form"),addEventListener("submit",handleSubmit)
+
+//event handlers
+function handleSubmit(e){
+    e.preventDefault();
+    let artObj = {
+        title: e.target.title.value,
+        description: e.target.description.value,
+        img: e.target.img.value
+    }
+renderoneArt(artObj)
+postArt(artObj)
+}
+
+
+
 function renderoneArt(art){
 let card = document.createElement("li")
 card.className = "card"
@@ -6,6 +23,9 @@ card.innerHTML = `
 <div class = "content" 
 <h4> ${art.title} </h4>
 <p>${art.description}</p>
+</div>
+<div>
+<button>Donate to Artist</button>
 </div>
 
 `
@@ -18,12 +38,26 @@ document.querySelector("#artlist").appendChild(card)
 card.appendChild(editbutton)
 
 }
+
+
 function getAllArt(){
 fetch('http://localhost:3000/artpieces')
 .then(response => response.json())
 .then(artpieces => artpieces.forEach(art => renderoneArt(art)))
 
 console.log("before")}
+
+function postArt(artObj){
+    fetch('http://localhost:3000/artpieces',{
+        method:"POST",
+        headers: {
+            "content-Type":"application/json"
+        },
+        body:JSON.stringify(artObj)
+    })
+    .then(response => response.json())
+}
+
 function initialize (){
     getAllArt()
     console.log("after")
