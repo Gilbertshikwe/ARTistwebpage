@@ -1,40 +1,34 @@
 {
   "artpieces": [
     {
-      "id": 1,
-      "title": "Mona Lisa",
+      "title": "The Raft of  the Medusa.",
+      "img": "https://media.timeout.com/images/105222685/750/562/image.webp",
+      "description": "For sheer impact, it’s hard to top The Raft of the Medusa, in which Géricault took a contemporary news event and transformed it into a timeless icon. The backstory begins with the 1818 sinking of the French naval vessel off the coast of Africa, which left 147 sailors adrift on a hastily constructed raft. Of that number, only 15 remained after a 13-day ordeal at sea that included incidents of cannibalism among the desperate men.",
+      "id": 8
+    },
+    {
+      "title": "Georges Seurat, A Sunday Afternoon on the Island of La Grande Jatte, 1884–1886.",
+      "img": "https://media.timeout.com/images/105293264/750/562/image.webp",
+      "description": "Georges Seurat’s masterpiece, evoking the Paris of La Belle Epoque, is actually depicting a working-class suburban scene well outside the city’s center. Seurat often made this milieu his subject, which differed from the bourgeois portrayals of his Impressionist contemporaries. Seurat abjured the capture-the-moment approach of Manet, Monet and Degas, going instead for the sense of timeless permanence found in Greek sculpture. ",
+      "id": 9
+    },
+    {
+      "title": " The Flower Carrier.",
+      "img": "https://sep.turbifycdn.com/ty/cdn/madisonartshop/carrier?t=1678352599&",
+      "description": "Known in its native tongue as \"Cargador de Flores,\" The Flower Carrier was painted by Diego Rivera in 1935. Widely considered to be the greatest Mexican painter of the twentieth century, Rivera was known for his simple paintings dominated by their bright colors and The Flower Carrier is no exception.",
+      "id": 10
+    },
+    {
+      "title": "American Gothic.",
+      "img": "https://sep.turbifycdn.com/ty/cdn/madisonartshop/most-famous-paintings-15.jpg?t=1678352599&",
+      "description": "Marking the list as another iconic piece in American art, American Gothic, painted by Grant Wood in 1930 is a dry depiction of a farmer and his Plain-Jane daughter - The Great Depression personified.",
+      "id": 11
+    },
+    {
+      "title": "Mona Lisa.",
       "img": "https://media.timeout.com/images/103166731/750/562/image.webp",
-      "description": "This was designed by Leonardo da Vinci.1503"
-    },
-    {
-      "id": 2,
-      "title": "Girl with the pearl earring",
-      "img": "https://media.timeout.com/images/103166735/750/562/image.webp",
-      "description": "This was designed by Johannes Vermeer.1665"
-    },
-    {
-      "id": 3,
-      "title": "The Starry Night ",
-      "img": "https://media.timeout.com/images/103166739/750/562/image.webp",
-      "description": "This was designed by Gustav Klimt.1905"
-    },
-    {
-      "id": 4,
-      "title": "The Kiss",
-      "img": "https://media.timeout.com/images/103166743/750/562/image.webp",
-      "description": "This was designed by Gustav Klimt.1905"
-    },
-    {
-      "title": "The Birth of Venus",
-      "img": "https://media.timeout.com/images/103166737/750/562/image.webp",
-      "description": "Botticelli’s The Birth of Venus was the first full-length, non-religious nude since antiquity, and was made for Lorenzo de Medici. It’s claimed that the figure of the Goddess of Love is modeled after one Simonetta Cattaneo Vespucci, whose favors were allegedly shared by Lorenzo and his younger brother, Giuliano",
-      "id": 5
-    },
-    {
-      "title": "Arrangement in Grey and Black No. 1",
-      "img": "https://media.timeout.com/images/103166741/750/562/image.webp",
-      "description": "Whistler’s Mother, or Arrangement in Grey and Black No. 1, as it’s actually titled, speaks to the artist’s ambition to pursue art for art’s sake. James Abbott McNeill Whistler painted the work in his London studio in 1871, and in it, the formality of portraiture becomes an essay in form.",
-      "id": 6
+      "description": "Painted between 1503 and 1517, Da Vinci’s alluring portrait has been dogged by two questions since the day it was made: Who’s the subject and why is she smiling? A number of theories for the former have been proffered over the years: That she’s the wife of the Florentine merchant Francesco di Bartolomeo del Giocondo (ergo, the work’s alternative title, La Gioconda); that she's Leonardo’s mother, Caterina, conjured from Leonardo's boyhood memories of her; and finally, that it's a self-portrait in drag.",
+      "id": 12
     }
   ]
 }

@@ -1,8 +1,8 @@
 //add  event listeners
-document.querySelector("#art-form"),addEventListener("submit",handleSubmit)
+let formSubmit = document.querySelector("#art-form")
 
 //event handlers
-function handleSubmit(e){
+formSubmit.addEventListener("submit",(e)=>{
     e.preventDefault();
     let artObj = {
         title: e.target.title.value,
@@ -10,9 +10,10 @@ function handleSubmit(e){
         description: e.target.description.value,
        
     }
+formSubmit.reset()
 renderoneArt(artObj)
 postArt(artObj)
-}
+})
 
 
 
@@ -24,9 +25,11 @@ card.innerHTML = `
 <div class = "content" 
 <h4> ${art.title} </h4>
 <p>${art.description}</p>
+<p>
+</p>
 </div>
 <div>
-<button>Donate to Artist</button>
+<button id= "donate">Donate to Artist</button>
 </div>
 
 `
@@ -35,12 +38,18 @@ editbutton.className = "button-warning"
 editbutton.textContent = "Edit Post"
 console.log(card)
 console.log(editbutton)
+/*PATCH request
+card.querySelector("#donate").addEventListener("click",()=>
+card.querySelector("span").textContent = art.donation,
+updateDonation(art)
+)*/
+
+
 document.querySelector("#artlist").appendChild(card)
 card.appendChild(editbutton)
-
 }
 
-
+//POST request
 function getAllArt(){
 fetch('http://localhost:3000/artpieces')
 .then(response => response.json())
@@ -59,6 +68,19 @@ function postArt(artObj){
     .then(response => response.json())
     .then(art => console.log(art))
 }
+/*//PATCH request using FETCH
+function updateDonation(artObj){
+    fetch(`http://localhost:3000/artpieces/${artObj.id}`,{
+        method:'PATCH',
+        headers:{
+            'Content-Type':'application/json',
+        },
+        body: JSON.stringify(artObj),
+})
+    .then(response => response.json())
+    .then(art => console.log(art))
+}*/
+
 
 function initialize (){
     getAllArt()
